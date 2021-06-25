@@ -284,11 +284,12 @@ function draw() {
       winner.addImage('enk', win);
     }
 
-    bounce();
+    
     prisonerControls();
     hearts();
 
   }
+  bounce();
 }
 function bounce() {
   edges = createEdgeSprites()
